@@ -1,3 +1,7 @@
+# RosiePi ignored files
+*.0
+*.log
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

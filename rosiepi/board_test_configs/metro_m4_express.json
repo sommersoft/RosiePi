@@ -1,0 +1,32 @@
+{
+    "board": "metro_m4_express",
+    "firmware_filename_hint": "adafruit-circuitpython-metro_m4_express",
+    "unit_tests": {
+        "exclude": [],
+        "watchpoints": {
+            "test_imports": {
+                "auto_exception": "True",
+                "terms": [
+                    {
+                        "term": "foo",
+                        "search_type": "None"
+                    },
+                    {
+                        "term": "bar",
+                        "search_type": "startswith"
+                    }
+                ]
+            },
+            "test_board": {
+                "auto_exception": "False",
+                "terms": [
+                    {
+                        "term": "exception",
+                        "search_type": "in"
+                    }
+                ]
+            }
+        }
+    },
+    "phyical_tests": {}
+}
